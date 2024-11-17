@@ -1,0 +1,23 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding: 280px 0 280px 40px;
+    gap: 10px;
+    background-image: url(/images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family:'Montsserrat',sans-serif;
+}
+.Titulo_hero{
+    font-family:'Handlee', cursive;
+    font-size: 40px;
+    padding-bottom: 20px;   
+}
+.Subtitulo{
+    font-weight: lighter;
+    font-size: 22px;
+    color: #fa573a;
+    padding-bottom: 20px;
+    
+}

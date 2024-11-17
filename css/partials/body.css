@@ -1,11 +1,13 @@
 .hero{
     display: flex;
     flex-direction: column;
-    padding: 280px 0 280px 40px;
+    padding: 130px 0 130px 40px;
     gap: 10px;
-    background-image: url(/images/fondo.jpg);
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.573), rgba(0, 0, 0, 0.5)), 
+              url('/images/fondo.jpg');
+              background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     color: white;
     font-family:'Montsserrat',sans-serif;
 }
@@ -20,4 +22,81 @@
     color: #fa573a;
     padding-bottom: 20px;
     
+}
+
+.lasth2{
+    width: 200px;
+    font-weight:400x;
+    font-size:large;
+    padding-bottom: 20px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+.fa-brands{
+    color: white;
+}
+
+.Services{
+    padding: 50px 15px;
+}
+
+.OurServices{
+    font-family: 'Handlee', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+        span{
+            color: #fa573a;
+        }
+}
+
+.Main_Articles{
+  padding: 20px 10px;
+  
+}
+
+.Main_Articles article{
+    font-family: 'Montserrat';
+    padding: 2px 0;
+    h3{
+        font-weight: bolder;
+    }
+    a{ 
+        text-decoration: none;
+        color: #fa573a;
+    }
+    i{
+        font-weight: bolder;
+    }
+}
+.fa-cogs{
+    color: #fa573a;
+    padding: 10px;
+    border: 1px solid #fa573a;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.fa-truck{
+    color: #fa573a;
+    padding: 10px;
+    border: 1px solid #fa573a;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.fa-heart{
+    color: #fa573a;
+    padding: 10px;
+    border: 1px solid #fa573a;
+    font-size: larger;
+    font-weight: bold;
 }

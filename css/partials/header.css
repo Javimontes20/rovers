@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
+        a{
+            color: #fa573a;
+        }
 }
 .container{
     display: grid;
@@ -24,6 +27,8 @@
    flex-direction: column;
    justify-content: center;
    align-items: flex-end;
+        a{
+            color:gray}
 
 }
 

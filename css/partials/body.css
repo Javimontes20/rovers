@@ -100,3 +100,52 @@
     font-size: larger;
     font-weight: bold;
 }
+.AboutUs{
+    font-family: 'Handlee', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+        span{
+            color: #fa573a;
+        }
+}
+.Borde{
+    display:flex;
+    justify-content: center ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Borde img{
+    width:50vh ;
+    display: block;
+}
+
+.History{
+    margin: 20px;
+    font-family: 'Montserrat';
+    h3{
+        font-size: medium;
+        font-weight: bold;
+        margin-left: 40px ;
+        padding-bottom: 20px;
+    }
+    h4{
+    
+        color: #fa573a;
+        margin-left: 40px ;
+        padding-bottom: 20px;
+    }
+
+    p{
+        margin-left: 40px;
+        padding-bottom: 20px;
+    }
+    a{
+        margin-left: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+
+

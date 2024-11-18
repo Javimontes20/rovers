@@ -8,6 +8,12 @@
             color: #fa573a;
         }
 }
+
+.icon_ordenador{
+    display: none;
+}
+
+
 .container{
     display: grid;
     grid-template-columns: repeat(3, 3fr) ;
@@ -70,3 +76,43 @@
  .boton:hover{
     background-color: transparent;
     border-style: 1px solid black; }
+
+
+
+
+ @media (min-width:576px){
+        .menu_icon{display: none;}
+    
+        .icon_ordenador{
+            display: flex;
+            background-color:#21242e ;
+        color: #fa573a;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        font-family: 'Montserrat';
+    
+            li{
+                color: white;
+            }
+            a{
+                color: #fa573a;
+            }
+        }
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+                hr{display: none;}
+        }
+        .menu_burger{
+            display: none;
+        }
+
+        .nav_menu{
+            display: flex;
+            grid-column: 2/3;
+        }
+        
+    }

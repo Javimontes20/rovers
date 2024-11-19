@@ -1,0 +1,45 @@
+@media (min-width:576px){
+    .menu_icon{display: none;}
+
+    .icon_ordenador{
+        display: flex;
+        background-color:#21242e ;
+    color: #fa573a;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Montserrat';
+
+        li{
+            color: white;
+        }
+        a{
+            color: #fa573a;
+        }
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+            hr{display: none;}
+    }
+    .menu_burger{
+        display: none;
+    }
+
+    .nav_menu{
+        display: flex;
+        grid-column: 2/3;
+    }
+    
+    .items{
+    display: flex;
+    justify-content: flex-start;
+
+    }
+    .fa-brands{
+        padding-right: 25px;
+    }
+
+}

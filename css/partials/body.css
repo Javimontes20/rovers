@@ -39,11 +39,31 @@
     padding-top: 10px;
 }
 .fa-brands{
-    color: white;
+    color: white;   
+     transition: transform 0.3s ease, color 0.3s ease; 
 }
+    
+.fa-brands:hover {
+        transform: scale(1.5); 
+        color:#fa573a; 
+    }
+
+.boton{
+    background-color: #fa573a;
+    color: white;
+    font-size: medium;
+    border-style: none;
+    padding:20px;
+    transition: background-color 0.3s ease,border-color 0.3s ease;
+
+ }
+ .boton:hover{
+    background-color: transparent;
+    border-color: #fa573a;
+     }
 
 .Services{
-    padding: 50px 15px;
+    padding: 50px 15px 10px 10px
 }
 
 .OurServices{
@@ -51,12 +71,14 @@
     display: flex;
     justify-content: center;
     font-size: 30px;
-    padding-bottom: 20px;
+    
         span{
             color: #fa573a;
         }
 }
-
+.underline{
+    text-align: center;
+}
 .Main_Articles{
   padding: 20px 10px;
   
@@ -105,10 +127,14 @@
     display: flex;
     justify-content: center;
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-top: 40px;
         span{
             color: #fa573a;
         }
+}
+
+.underline2{
+    text-align: center;
 }
 .Borde{
     display:flex;
@@ -119,33 +145,52 @@
 .Borde img{
     width:50vh ;
     display: block;
+    border:2px solid #fa573a ;
+    width: 350px;
 }
 
 .History{
     margin: 20px;
     font-family: 'Montserrat';
+    padding-bottom: 60px;
     h3{
         font-size: medium;
         font-weight: bold;
-        margin-left: 40px ;
+        margin-left: 20px ;
         padding-bottom: 20px;
     }
     h4{
     
         color: #fa573a;
-        margin-left: 40px ;
+        margin-left: 20px ;
         padding-bottom: 20px;
     }
 
     p{
-        margin-left: 40px;
+        margin-left: 20px;
         padding-bottom: 20px;
     }
     a{
-        margin-left: 40px;
+        margin-left: 20px;
         padding-bottom: 20px;
     }
 }
+.buttonLeer{
+    background-color: #fa573a;
+    color: white;
+    font-size: medium;
+    border-style: none;
+    padding: 20px;
+}
 
 
+
+    .items{
+    display: flex;
+    justify-content: flex-start;
+
+    }
+    .fa-brands{
+        padding-right: 25px;
+    }
 

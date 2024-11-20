@@ -81,15 +81,16 @@
 }
 .Main_Articles{
   padding: 20px 10px;
-  
 }
 
 .Main_Articles article{
     font-family: 'Montserrat';
-    padding: 2px 0;
+    padding: 2px 5px;
+   
     h3{
         font-weight: bolder;
     }
+    
     a{ 
         text-decoration: none;
         color: #fa573a;
@@ -97,6 +98,10 @@
     i{
         font-weight: bolder;
     }
+
+}
+.h31{
+    display: none;
 }
 .fa-cogs{
     color: #fa573a;
@@ -136,17 +141,23 @@
 .underline2{
     text-align: center;
 }
-.Borde{
+.Imagen{
     display:flex;
     justify-content: center ;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.Borde img{
+
+
+.Marco{
+    border:2px solid #fa573a;
+}
+
+.Imagen img{
     width:50vh ;
     display: block;
-    border:2px solid #fa573a ;
     width: 350px;
+    border: 2px solid #fa573a;
 }
 
 .History{

@@ -1,207 +1,197 @@
-.hero{
-    display: flex;
-    flex-direction: column;
-    padding: 130px 0 130px 40px;
-    gap: 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.573), rgba(0, 0, 0, 0.5)), 
-              url('/images/fondo.jpg');
-              background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    font-family:'Montsserrat',sans-serif;
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 130px 0 130px 40px;
+  gap: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.573), rgba(0, 0, 0, 0.5)),
+    url("/images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "Montsserrat", sans-serif;
 }
-.Titulo_hero{
-    font-family:'Handlee', cursive;
-    font-size: 40px;
-    padding-bottom: 20px;   
+.Titulo_hero {
+  font-family: "Handlee", cursive;
+  font-size: 40px;
+  padding-bottom: 20px;
 }
-.Subtitulo{
-    font-weight: lighter;
-    font-size: 22px;
-    color: #fa573a;
-    padding-bottom: 20px;
-    
-}
-
-.lasth2{
-    width: 200px;
-    font-weight:400x;
-    font-size:large;
-    padding-bottom: 20px;
+.Subtitulo {
+  font-weight: lighter;
+  font-size: 22px;
+  color: #fa573a;
+  padding-bottom: 20px;
 }
 
-.items{
-    display: flex;
-    justify-content: space-between;
-    width: 34%;
-    font-size: xx-large;
-    padding-top: 10px;
+.lasth2 {
+  width: 200px;
+  font-weight: 400x;
+  font-size: large;
+  padding-bottom: 20px;
 }
-.fa-brands{
-    color: white;   
-     transition: transform 0.3s ease, color 0.3s ease; 
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 34%;
+  font-size: xx-large;
+  padding-top: 10px;
 }
-    
+.fa-brands {
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
 .fa-brands:hover {
-        transform: scale(1.5); 
-        color:#fa573a; 
-    }
-
-.boton{
-    background-color: #fa573a;
-    color: white;
-    font-size: medium;
-    border-style: none;
-    padding:20px;
-    transition: background-color 0.3s ease,border-color 0.3s ease;
-
- }
- .boton:hover{
-    background-color: transparent;
-    border-color: #fa573a;
-     }
-
-.Services{
-    padding: 50px 15px 10px 10px
+  transform: scale(1.5);
+  color: #fa573a;
 }
 
-.OurServices{
-    font-family: 'Handlee', cursive;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    
-        span{
-            color: #fa573a;
-        }
+.boton {
+  background-color: #fa573a;
+  color: white;
+  font-size: medium;
+  border-style: none;
+  padding: 20px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
-.underline{
-    text-align: center;
+.boton:hover {
+  background-color: transparent;
+  border-color: #fa573a;
 }
-.Main_Articles{
+
+.Services {
+  padding: 50px 15px 10px 10px;
+}
+
+.OurServices {
+  font-family: "Handlee", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+
+  span {
+    color: #fa573a;
+  }
+}
+.underline {
+  text-align: center;
+}
+.Main_Articles {
   padding: 20px 10px;
 }
 
-.Main_Articles article{
-    font-family: 'Montserrat';
-    padding: 2px 5px;
-   
-    h3{
-        font-weight: bolder;
-    }
-    
-    a{ 
-        text-decoration: none;
-        color: #fa573a;
-    }
-    i{
-        font-weight: bolder;
-    }
+.Main_Articles article {
+  font-family: "Montserrat";
+  padding: 2px 5px;
 
-}
-.h31{
-    display: none;
-}
-.fa-cogs{
+  h3 {
+    font-weight: bolder;
+  }
+
+  a {
+    text-decoration: none;
     color: #fa573a;
-    padding: 10px;
-    border: 1px solid #fa573a;
-    font-size: larger;
-    font-weight: bold;
-    
+  }
+  i {
+    font-weight: bolder;
+  }
+}
+.h31 {
+  display: none;
+}
+.fa-cogs {
+  color: #fa573a;
+  padding: 10px;
+  border: 1px solid #fa573a;
+  font-size: larger;
+  font-weight: bold;
 }
 
-.fa-truck{
+.fa-truck {
+  color: #fa573a;
+  padding: 10px;
+  border: 1px solid #fa573a;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.fa-heart {
+  color: #fa573a;
+  padding: 10px;
+  border: 1px solid #fa573a;
+  font-size: larger;
+  font-weight: bold;
+}
+.AboutUs {
+  font-family: "Handlee", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 40px;
+  span {
     color: #fa573a;
-    padding: 10px;
-    border: 1px solid #fa573a;
-    font-size: larger;
-    font-weight: bold;
+  }
 }
 
-.fa-heart{
-    color: #fa573a;
-    padding: 10px;
-    border: 1px solid #fa573a;
-    font-size: larger;
-    font-weight: bold;
+.underline2 {
+  text-align: center;
 }
-.AboutUs{
-    font-family: 'Handlee', cursive;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    padding-top: 40px;
-        span{
-            color: #fa573a;
-        }
+.Imagen {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.underline2{
-    text-align: center;
-}
-.Imagen{
-    display:flex;
-    justify-content: center ;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.Marco {
+  border: 2px solid #fa573a;
 }
 
-
-.Marco{
-    border:2px solid #fa573a;
+.Imagen img {
+  width: 50vh;
+  display: block;
+  width: 350px;
+  border: 2px solid #fa573a;
 }
 
-.Imagen img{
-    width:50vh ;
-    display: block;
-    width: 350px;
-    border: 2px solid #fa573a;
-}
-
-.History{
-    margin: 20px;
-    font-family: 'Montserrat';
-    padding-bottom: 60px;
-    h3{
-        font-size: medium;
-        font-weight: bold;
-        margin-left: 20px ;
-        padding-bottom: 20px;
-    }
-    h4{
-    
-        color: #fa573a;
-        margin-left: 20px ;
-        padding-bottom: 20px;
-    }
-
-    p{
-        margin-left: 20px;
-        padding-bottom: 20px;
-    }
-    a{
-        margin-left: 20px;
-        padding-bottom: 20px;
-    }
-}
-.buttonLeer{
-    background-color: #fa573a;
-    color: white;
+.History {
+  margin: 20px;
+  font-family: "Montserrat";
+  padding-bottom: 60px;
+  h3 {
     font-size: medium;
-    border-style: none;
-    padding: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+  h4 {
+    color: #fa573a;
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  p {
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+  a {
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+}
+.buttonLeer {
+  background-color: #fa573a;
+  color: white;
+  font-size: medium;
+  border-style: none;
+  padding: 20px;
 }
 
-
-
-    .items{
-    display: flex;
-    justify-content: flex-start;
-
-    }
-    .fa-brands{
-        padding-right: 25px;
-    }
-
+.items {
+  display: flex;
+  justify-content: flex-start;
+}
+.fa-brands {
+  padding-right: 25px;
+}

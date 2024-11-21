@@ -1,88 +1,92 @@
-@media (min-width:576px){
+@media (min-width: 576px) {
+  .menu_icon {
+    display: none;
+  }
 
-     
-    .menu_icon{display: none;}
+  .icon_ordenador {
+    background-color: #21242e;
+    color: #fa573a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+    font-family: "Montserrat";
 
-    .icon_ordenador{
-        
-        background-color:#21242e ;
-        color: #fa573a;
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-        font-family: 'Montserrat';
+    li {
+      color: white;
+      display: flex;
+      align-items: center;
+      font-size: large;
+      gap: 5px;
+    }
+    a {
+      color: #fa573a;
+    }
+  }
 
-        li{
-            color: white;
-        }
-        a{
-            color: #fa573a;
-        }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 40px;
+    gap: 200px;
+    hr {
+      display: none;
     }
+  }
+  .menu_burger {
+    display: none;
+  }
 
-    .container{
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-        gap: 530px;
-            hr{display: none;}
-    }
-    
-    .menu_burger{
-        display: none;
-    }
+  .nav_menu {
+    display: flex;
+    grid-column: 2/3;
+  }
 
-    .nav_menu{
-        display: flex;
-        grid-column: 2/3;
-    }
+  .container1Hero {
+    margin-left: 85px;
+  }
+  .container2Hero {
+    margin-left: 85px;
+  }
+  .container3Hero {
+    margin-left: 85px;
+  }
 
-    .container1Hero{
-        margin-left: 85px;
-    }
-    .container2Hero{
-        margin-left: 85px;
-    }
-    .container3Hero{
-        margin-left: 85px;
-    }
-
-    .items{
+  .items {
     display: flex;
     justify-content: flex-start;
+  }
+  .fa-brands {
+    padding-right: 25px;
+  }
 
-    }
-    .fa-brands{
-        padding-right: 25px;
-    }
+  .Main_Articles {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 30px;
+    margin-right: 90px;
+    margin-left: 90px;
 
-    .Main_Articles{
-        display: flex;
-        margin-top: 20px;
-        padding: 0 30px;
-        margin-right: 90px;
-        margin-left: 90px;
+    hr {
+      margin-right: 10px;
+      display: flex;
+    }
+  }
+  .hr3 {
+    visibility: hidden;
+  }
+  .containerAboutImg {
+    display: flex;
+    align-items: center;
+    margin: 10px 150px 100px 200px;
+  }
 
-        hr{
-            margin-right: 10px;
-            display: flex;
-        }
-    }
-    .hr3{
-        visibility: hidden;
-    }
-    .containerAboutImg{
-        display: flex;
-        align-items: center;
-        margin: 10px 150px 100px 200px;
-    }
+  .History p {
+    margin-right: 50px;
+  }
 
-    .History p{
-        margin-right: 100px;
-    }
-
-    .navFooter{
-        text-align: left;
-        padding-left: 150px;
-    }
+  .navFooter {
+    text-align: left;
+    padding-left: 150px;
+  }
 }

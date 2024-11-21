@@ -1,23 +1,23 @@
-.footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
-.triangle{
-    display: flex;
-    justify-content: end;
-    padding: 20px ;
-
+.triangle {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
 }
-.fa-square-caret-up{
-    font-style: unset;
-    color: #fa573a;
-    font-size: xx-large;
+.fa-square-caret-up {
+  font-style: unset;
+  color: #fa573a;
+  font-size: xx-large;
 }
-.navFooter{
-    background-color: #21242e;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Montserrat';}
+.navFooter {
+  background-color: #21242e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Montserrat";
+}

@@ -11,11 +11,13 @@
   color: white;
   font-family: "Montsserrat", sans-serif;
 }
+
 .Titulo_hero {
   font-family: "Handlee", cursive;
   font-size: 40px;
   padding-bottom: 20px;
 }
+
 .Subtitulo {
   font-weight: lighter;
   font-size: 22px;
@@ -37,6 +39,7 @@
   font-size: xx-large;
   padding-top: 10px;
 }
+
 .fa-brands {
   color: white;
   transition: transform 0.3s ease, color 0.3s ease;
@@ -55,6 +58,7 @@
   padding: 20px;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
+
 .boton:hover {
   background-color: transparent;
   border-color: #fa573a;
@@ -74,9 +78,11 @@
     color: #fa573a;
   }
 }
+
 .underline {
   text-align: center;
 }
+
 .Main_Articles {
   padding: 20px 10px;
 }
@@ -93,13 +99,16 @@
     text-decoration: none;
     color: #fa573a;
   }
+
   i {
     font-weight: bolder;
   }
 }
+
 .h31 {
   display: none;
 }
+
 .fa-cogs {
   color: #fa573a;
   padding: 10px;
@@ -123,12 +132,14 @@
   font-size: larger;
   font-weight: bold;
 }
+
 .AboutUs {
   font-family: "Handlee", cursive;
   display: flex;
   justify-content: center;
   font-size: 30px;
   padding-top: 40px;
+
   span {
     color: #fa573a;
   }
@@ -137,6 +148,7 @@
 .underline2 {
   text-align: center;
 }
+
 .Imagen {
   display: flex;
   justify-content: center;
@@ -144,32 +156,33 @@
 }
 
 .marco {
-    border:2px solid #fa573a;
-    transform: rotateZ(10deg);
-    transition: 1s;
-     img {
-        transform: rotateZ(-10deg);
-        transition: 1s;
-    }
-}
+  border: 2px solid #fa573a;
+  transform: rotateZ(10deg);
+  transition: 1s;
 
+  img {
+    transform: rotateZ(-10deg);
+    transition: 1s;
+  }
+}
 
 .Imagen img {
   display: block;
   width: 350px;
-  
 }
 
 .History {
   margin: 20px;
   font-family: "Montserrat";
   padding-bottom: 60px;
+
   h3 {
     font-size: medium;
     font-weight: bold;
     margin-left: 20px;
     padding-bottom: 20px;
   }
+
   h4 {
     color: #fa573a;
     margin-left: 20px;
@@ -180,11 +193,13 @@
     margin-left: 20px;
     padding-bottom: 20px;
   }
+
   a {
     margin-left: 20px;
     padding-bottom: 20px;
   }
 }
+
 .buttonLeer {
   background-color: #fa573a;
   color: white;
@@ -197,6 +212,7 @@
   display: flex;
   justify-content: flex-start;
 }
+
 .fa-brands {
   padding-right: 25px;
 }

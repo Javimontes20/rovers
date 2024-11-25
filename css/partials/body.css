@@ -140,19 +140,24 @@
 .Imagen {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 20px;
 }
 
-.Marco {
-  border: 2px solid #fa573a;
+.marco {
+    border:2px solid #fa573a;
+    transform: rotateZ(10deg);
+    transition: 1s;
+     img {
+        transform: rotateZ(-10deg);
+        transition: 1s;
+    }
 }
+
 
 .Imagen img {
-  width: 50vh;
   display: block;
   width: 350px;
-  border: 2px solid #fa573a;
+  
 }
 
 .History {
